@@ -1,0 +1,108 @@
+
+#companyLogo{
+    position: absolute;
+    top:  1%;
+    left: 7%;
+    width: 14%;
+}
+#mobileheadingdiv{
+    display: none;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+}
+#mobileheadingdiv h1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#mobileheadingdiv h2{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+}
+.navigation{
+    font-weight: bold;
+    color: #0b0088;
+    padding: 14px;
+    border-radius: 14px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: 500ms;
+}
+.navigation:hover{
+    padding: 15px;
+    color: white;
+    background-color: #03449e;
+   
+}
+#navLinks{
+    top:2%;
+    position: absolute;
+    right: 10%;
+    margin-right:0px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+}
+#headingDiv{
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 4%;
+    position: absolute;
+    /* left: 8%; */
+}
+#headingDiv > img{
+    width: 40%;
+    height: 500px;
+}
+#headingDiv  h1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+}
+#headingDiv  h2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+}
+#homestection{
+    display: flex;
+    justify-content: center;
+    height: 850px;
+
+}
+@media  (max-width:500px) {
+    #mobileheadingdiv{
+        display: block;
+    }
+    #mobileheadingdiv  h1{
+        font-size: 72px;
+    }
+    #mobileheadingdiv  h2{
+        font-size: 25px;
+    }
+    #companyLogo{
+        top: 0.5%;
+    left: 5%;
+    width: 40%;
+    }
+    .weblogo{
+        display: none;
+    }
+    #navLinks{
+        display: none;
+    }
+    #headingDiv{
+        display: none;
+    }
+    #navLinks{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        right: 0%;
+    }
+   
+}

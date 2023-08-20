@@ -1,0 +1,132 @@
+#scroller {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  height: 85%;
+  top: 8%;
+  left: 0%;
+}
+#scrollerupperDiv {
+  /* border: 10px solid red;  */
+  height: 1850px;
+}
+#leftscollerDiv {
+  height: 100%;
+  width: 30%;
+  border: 2px solid #f9a600;
+  border-radius: 28px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#rightscollerDiv {
+  height: 100%;
+  border: 2px solid #f9a600;
+  border-radius: 28px;
+  width: 65%;
+}
+
+#leftscollerDiv > div {
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 5%;
+  /* padding-bottom: 3%; */
+  position: relative;
+  /* width: 100%; */
+  color: #a5a5a5;
+  border-bottom: 2px solid #f9a600;
+  cursor: pointer;
+  background-color: black;
+}
+#leftscollerDiv::after {
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  content: "First Class Amenities Stack ";
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  width: 29.9%;
+  /* padding-left: 5%; */
+  /* border: 2px solid red; */
+  top: 0%;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  text-align: center;
+  height: 23%;
+  background-color:#f9a600;
+  /* border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 5%;
+  position: relative;
+  /* width: 100%; */
+  
+}
+
+#integrationsContent {
+  display: none;
+  padding-bottom: 3%;
+  height: 100%;
+  width: 100%;
+  border-radius: 28px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-color: rgb(248, 238, 198);
+  transition: all ease-out;
+}
+#modelingContent {
+  display: none;
+  padding-bottom: 3%;
+  height: 100%;
+  width: 100%;
+  border-radius: 28px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-color: #fed582;
+  transition: all ease-out;
+}
+#plansContent {
+  display: none;
+  padding-bottom: 3%;
+  height: 100%;
+  width: 100%;
+  border-radius: 28px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-color: #fdc554;
+  transition: all ease-out;
+}
+#scenariosContent {
+  display: none;
+  padding-bottom: 3%;
+  height: 100%;
+  width: 100%;
+  border-radius: 28px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-color: #ffc132;
+  transition: all ease-out;
+}
+#reportsContent {
+  display: none;
+  padding-bottom: 3%;
+  height: 100%;
+  width: 100%;
+  border-radius: 28px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-color:#ffba18;
+  transition: all ease-out;
+}
